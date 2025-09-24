@@ -1,3 +1,6 @@
-spring:
-  application:
-    name: product-service
+server:
+  port: 8083
+
+product:
+  service:
+    name: Product Service from Config Server
